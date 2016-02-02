@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+
+table {
+	border-collapse: collapse;
+	border:solid 1px; 
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+</style>
+</head>
+
+<body><form id="form1" name="form1" method="post" action="">
+<p>Billing accumlated charges of customers</p>
+<p>List of customers who's time came<br />
+  sub-list of shippings<br />
+  sub-list of services to bill</p>
+<br />
+<table width="842" border="1">
+  <tr>
+    <td width="144">
+      <input type="text" name="textfield" id="textfield" />
+    </td>
+    <td width="144"><input type="text" name="textfield2" id="textfield2" /></td>
+    <td width="112"><select name="select" id="select">
+      <option>Today</option>
+    </select></td>
+    <td width="85"><select name="select2" id="select2">
+      <option>Today</option>
+    </select></td>
+    <td width="97">&nbsp;</td>
+    <td width="58">&nbsp;</td>
+    <td width="58">&nbsp;</td>
+    <td width="110"><input type="submit" name="Filter" id="Filter" value="Filter" /></td>
+    </tr>
+  <tr>
+    <td align="center" nowrap="nowrap">customer_id</td>
+    <td align="center" nowrap="nowrap">Customer <a href="#">Name</a></td>
+    <td align="center" nowrap="nowrap">Aniversery Date</td>
+    <td align="center" nowrap="nowrap">Last billed mo</td>
+    <td align="center" nowrap="nowrap">Do Billing</td>
+    <td align="center" nowrap="nowrap">Transaction</td>
+    <td align="center" nowrap="nowrap">Total</td>
+    <td align="center" nowrap="nowrap">Actions</td>
+    </tr>
+  <tr>
+    <td align="right">1</td>
+    <td align="center"><a href="#">John Doe</a></td>
+    <td>15</td>
+    <td>12</td>
+    <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+    <td>10</td>
+    <td>$29.90</td>
+    <td>Edit Transactions</td>
+    </tr>
+</table><br />
+= Edit Transactions
+<table width="748" border="1">
+  <tr>
+    <td colspan="9">John Doe From 16/12/2015 To 15/1/2016</td>
+  </tr>
+  <tr>
+    <td width="21" align="center" nowrap="nowrap">Bill</td>
+    <td width="104" nowrap="nowrap">shipment_id</td>
+    <td width="109" nowrap="nowrap">tracking_id</td>
+    <td width="85" nowrap="nowrap">carrier_name</td>
+    <td width="85" nowrap="nowrap">received_date</td>
+    <td width="89" nowrap="nowrap">delivered_date</td>
+    <td width="84" nowrap="nowrap">del_type</td>
+    <td width="75" nowrap="nowrap">transactions </td>
+    <td width="58" nowrap="nowrap">Total</td>
+    </tr>
+  <tr>
+    <td align="right" nowrap="nowrap"><input name="checkbox2" type="checkbox" id="checkbox2" checked="checked" /></td>
+    <td align="center" nowrap="nowrap">123456789</td>
+    <td align="center" nowrap="nowrap">1Z33432423</td>
+    <td align="center" nowrap="nowrap">UPS</td>
+    <td align="center" nowrap="nowrap">1/8/2016</td>
+    <td align="center" nowrap="nowrap">1/10/2016</td>
+    <td align="center" nowrap="nowrap">home delivery</td>
+    <td align="center" nowrap="nowrap">3</td>
+    <td align="center" nowrap="nowrap">9.49</td>
+    </tr>
+  <tr>
+    <td align="right" valign="top">&nbsp;</td>
+    <td colspan="8"><table width="100%" border="1">
+      <tr>
+        <td width="4%" align="center" nowrap="nowrap">Bill</td>
+        <td width="30%" align="left" nowrap="nowrap">service_type</td>
+        <td width="12%" align="left" nowrap="nowrap">Start Date</td>
+        <td width="12%" align="left" nowrap="nowrap">End Date</td>
+        <td width="9%" align="left" nowrap="nowrap">Charge</td>
+        <td width="23%" align="left" nowrap="nowrap">Delivered at </td>
+        <td width="10%" align="left" nowrap="nowrap">By</td>
+        </tr>
+      <tr>
+        <td align="left" nowrap="nowrap"><input name="checkbox4" type="checkbox" id="checkbox4" checked="checked" /></td>
+        <td align="left" nowrap="nowrap">receive   package</td>
+        <td align="left" nowrap="nowrap">1/8/2016</td>
+        <td align="left" nowrap="nowrap">1/8/2016</td>
+        <td align="left" nowrap="nowrap">1.99</td>
+        <td align="left" nowrap="nowrap">S12345</td>
+        <td align="left" nowrap="nowrap">R234</td>
+        </tr>
+      <tr>
+        <td><input name="checkbox3" type="checkbox" id="checkbox3" checked="checked" /></td>
+        <td>pakage storage 2 days</td>
+        <td>1/8/2016</td>
+        <td>1/10/2016</td>
+        <td>2.00</td>
+        <td>S12345</td>
+        <td>n/a</td>
+        </tr>
+      <tr>
+        <td><input name="checkbox5" type="checkbox" id="checkbox5" checked="checked" /></td>
+        <td>Home delivery</td>
+        <td>1/10/2016</td>
+        <td>1/10/2016</td>
+        <td>5.50</td>
+        <td>H345678</td>
+        <td>R123</td>
+        </tr>
+    </table></td>
+    </tr>
+</table>
+====
+</form>
+</body>
+</html>

@@ -1,0 +1,2 @@
+[{"user_id":110011, "store_id":9205, "added_date":"2015-12-02 12:00:42", "status":1, "store_name":"Demo Store name", "address":"160 Broadway", "city":"Manhattan", "region":"43", "postal_code":"10001", "country":""},
+ {"user_id":110011, "store_id":9237, "added_date":"2015-12-02 12:21:19", "status":0, "store_name":"Demo Store name", "address":"52 Fulton St", "city":"Manhattan", "region":"43", "postal_code":"10001", "country":""}]
